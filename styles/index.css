@@ -1,0 +1,10 @@
+.container {
+    background: rgb(11, 22, 113);
+    background: linear-gradient(0deg, rgb(11, 22, 113, 1) 0% rgb(14, 27, 254, 1)100%);
+    height: 32vh;
+    text-align: center;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    }
