@@ -8,11 +8,12 @@
     <style>
         p {
             color: white;
-            font-size: 55px;
+            font-size: 40px;
         }
     </style>
 
     <link rel="stylesheet" href="../styles/index.css" />
+
 </head>
 
 <body>
@@ -20,67 +21,81 @@
         <p class="text-center">AS Flowers</p>
         <p style="color: yellow; font-size: 26px;">We cater to your flower needs</p>
         <div class="topnav">
-            <input type="text" placeholder="Search all your Orders "> <button>Search</button>
+            <input type="text" placeholder="Search all your Orders "><button>Search</button>
             <div class="topnav a">
                 <a class="active" href="#home">Home</a>
                 <a href="#garlands">Garlands</a>
                 <a href="#flowers">Flowers</a>
                 <a href="#gallery">Gallery</a>
                 <a href="#contact">ContactUS</a>
-                </div>  
+                <a href="#name">Name</a>
+                <button style="font-size:12px">My Cart<i class="fa fa-shopping-cart"></i></button>
+                <div class="images">
+                    <img src="../images/bouquet.jpg" width="200" height="200">
+                </div>
+
+
+            </div>
+
+
         </div>
 
-    </div>
-    <div class="images">
-        <img src="../images/bouquet.jpg" width="200" height="200">
         <div class="sidenav">
-            <a href="#">MY Account</a><br>
-            <a href="#">My Orders</a><br>
-            <a href="#">My Wish list</a><br>
-            <a href="#">Payments Details</a><br>
-          </div>
+            <ul>
+                <li><a href="#">MY Account</a><br></li>
+                <li><a href="#">My Orders</a><br></li>
+                <li><a href="#">My Wish list</a><br></li>
+                <li><a href="#">Payments Details</a><br></li>
+            </ul>
+        </div>
     </div>
     <div class="container2">
         <table>
+            <table style="width:70%">
+                <tr>
+                    <th>Order No</th>
+                    <th>Date of Order</th>
+                    <th>Address</th>
+                    <th>Total</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>129374682</td>
+                    <td>04/06/2024</td>
+                    <td>123 class street, charlotte NC</td>
+                    <td>150$</td>
+                    <td>Shipped</td>
+                </tr>
+                <tr>
+                    <td>154492686</td>
+                    <td>04/03/2024</td>
+                    <td>123 class street, charlotte NC</td>
+                    <td>246$</td>
+                    <td>Out for Delivery</td>
+                </tr>
+                <tr>
+                    <td>124647086</td>
+                    <td>01/14/2024</td>
+                    <td>123 class street, charlotte NC</td>
+                    <td>172$</td>
+                    <td>Delivered</td>
+                </tr>
+                <tr>
+                    <td>153672279</td>
+                    <td>12/27/2023</td>
+                    <td>123 class street, charlotte NC</td>
+                    <td>283$</td>
+                    <td>Delivered</td>
+                </tr>
 
-            <tr>
-                <th>Order No</th>
-                <th>Date of Order</th>
-                <th>Address</th>
-                <th>Total</th>
-                <th>Status</th>
-            </tr>
-            <tr>
-                <td>129374682</td>
-                <td>04/06/2024</td>
-                <td>123 class street, charlotte NC</td>
-                <td>150$</td>
-                <td>Shipped</td>
-            </tr>
-            <tr>
-                <td>154492686</td>
-                <td>04/03/2024</td>
-                <td>123 class street, charlotte NC</td>
-                <td>246$</td>
-                <td>Out for Delivery</td>
-            </tr>
-            <tr>
-                <td>124647086</td>
-                <td>01/14/2024</td>
-                <td>123 class street, charlotte NC</td>
-                <td>172$</td>
-                <td>Delivered</td>
-            </tr>
-            <tr>
-                <td>153672279</td>
-                <td>12/27/2023</td>
-                <td>123 class street, charlotte NC</td>
-                <td>283$</td>
-                <td>Delivered</td>
-            </tr>
-
-        </table>
+            </table>
+        </table> 
     </div>
 </body>
-
+<footer>
+    <div class="footer">
+    <p>Help-Desk</p>
+    <p>800-123-4567</p>
+    </div>
+</footer>
 </html>
