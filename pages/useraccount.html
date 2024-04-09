@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Account</title>
     <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../images/f0b387aa0215ed48643747a5bea8652f.gif">
     <style>
         p {
             color: white;
@@ -17,6 +18,9 @@
 
 <body>
     <div class="container">
+        <div class="w3-col s2 w3-white w3-left">
+            <img src="../images/f0b387aa0215ed48643747a5bea8652f.gif" width="200" height="200">
+        </div>
 
         <p class="text-center">AS Flowers</p>
         <p style="color: yellow; font-size: 26px;">We cater to your flower needs</p>
@@ -30,19 +34,59 @@
                 <a href="#contact">ContactUS</a>
                 <button style="font-size:12px">My Cart<i class="fa fa-shopping-cart"></i></button>
             </div>
-            <div class="images">
-                <img src="../images/bouquet.jpg" width="200" height="200">
-            </div>
-        
         </div>
+    </div>
+    <div style="width:25%">
+        <a href="#">My Account</a> <br>
+        <a href="#">My Order</a><br>
+        <a href="#">My WishList</a><br>
+        <a href="#">My Payment</a><br>
+    </div>
+    
+   
+
+
+    <div id="main_container">
+        <section id="section1">
+            <div class="box" id="accountinfo">
+                <div class="contcent">
+                    <form>
+                        <u>
+                            <h2> Account Information </h2>
+                        </u>
+                        <h3> Contact Information </h3>
+                        <label for="addline1">Address Line 1</label><br>
+                        <input type="text" id="addline1" name="addline1"><br>
+                        <label for="addline2">Address Line 2</label><br>
+                        <input type="text" id="addline2" name="addline2">
+                        <label for="phno">Phone Number</label><br>
+                        <input type="text" id="phno" name="phno">
+                    </form>
+                </div>
+            </div>
+            <div class="box" id="shippingaddress">
+                <div class="contcent">
+                    <form>
+                        <u>
+                            <h2> Shipping Address </h2>
+                        </u>
+                        <label for="addline1">Address Line 1</label><br>
+                        <input type="text" id="addline1" name="addline1"><br>
+                        <label for="addline2">Address Line 2</label><br>
+                        <input type="text" id="addline2" name="addline2">
+                        <label for="phno">Phone Number</label><br>
+                        <input type="text" id="phno" name="phno">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
 
     </div>
-    <div class="sidenav">
-        <a href="#">MY Account</a><br>
-        <a href="#">My Orders</a><br>
-        <a href="#">My Wish list</a><br>
-        <a href="#">Payments Details</a><br>
-    </div>
+
+
+
 
 </body>
 
